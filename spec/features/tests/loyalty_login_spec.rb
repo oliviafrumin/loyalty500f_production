@@ -8,9 +8,9 @@ feature 'Login Module' do
 
   before(:each) do
     visit '/'
-    @account = 1008
-    @username = 'merklensqa@gmail.com'
-    @password = 'Test1234'
+    @account = 373
+    @username = 'ofrumin@merkleinc.com'
+    @password = 'Ifo10044'
   end
 
   it 'should sign in loyaltyplus' do
@@ -26,7 +26,7 @@ feature 'Login Module' do
     find_account(@account)
     # binding.pry
     account_name = find(:xpath, "//section[@id='primary']/div/h1", wait: 2)
-    account_name.text eq 'Nearsoft Automation'
+    account_name.text eq 'Automation account Olivia'
     sleep 1
   end
 

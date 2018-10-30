@@ -12,9 +12,9 @@ feature 'Segments Module' do
   end
 
   before(:each) do
-    @account = 1008
-    @username = 'merklensqa@gmail.com'
-    @password = 'Test1234'
+    @account = 373
+    @username = 'ofrumin@merkleinc.com'
+    @password = 'Ifo10044'
     visit '/'
     login(@username, @password)
     find_account(@account)
