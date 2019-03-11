@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad0dc52-3407-4637-9a22-4ef06f5f7edb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/pages/account/loyalty_account_offers_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/pages/account/loyalty_account_offers_page.rb" afterDir="false" />
-    </list>
+    <list default="true" id="7ad0dc52-3407-4637-9a22-4ef06f5f7edb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,24 +14,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/features/pages/account/loyalty_account_offers_page.rb">
+        <entry file="file://$PROJECT_DIR$/spec/features/tests/loyalty_login_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+            <state relative-caret-position="391">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/tests/account/loyalty_offers_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-930" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/pages/account/loyalty_account_badges_page.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -63,13 +48,13 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/spec/features/pages/account/loyalty_account_rewards_page.rb" />
         <option value="$PROJECT_DIR$/spec/features/pages/account/loyalty_account_offers_page.rb" />
+        <option value="$PROJECT_DIR$/spec/features/pages/loyalty_landing_page.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -107,8 +92,7 @@
               <item name="loyalty500f_production" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,15 +133,24 @@
       <workItem from="1543439423897" duration="1232000" />
       <workItem from="1550603713441" duration="1957000" />
       <workItem from="1550890451945" duration="37000" />
-      <workItem from="1551123830563" duration="1964000" />
+      <workItem from="1551123830563" duration="5167000" />
     </task>
+    <task id="LOCAL-00001" summary="Temp_update datepicker for promos">
+      <created>1551142058654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551142058654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20276000" />
+    <option name="totallyTimeSpent" value="23479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50091743" side_tool="true" weight="0.24964234" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49908257" visible="true" weight="0.17310444" />
@@ -177,7 +170,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Version Control" order="4" weight="0.2160229" />
+      <window_info anchor="right" id="Version Control" order="4" visible="true" weight="0.2160229" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" sideWeight="0.50091743" side_tool="true" weight="0.24964234" />
@@ -244,6 +237,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Temp_update datepicker for promos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Temp_update datepicker for promos" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/requires.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -257,9 +254,6 @@
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/tests/account/loyalty_badges_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/tests/account/loyalty_points_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -286,13 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/tests/loyalty_login_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -330,9 +317,6 @@
     <entry file="file://$PROJECT_DIR$/spec/features/tests/loyalty_members_spec.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/pages/account/loyalty_account_badges_page.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/tests/account/loyalty_offers_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-930" />
@@ -340,8 +324,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/pages/account/loyalty_account_offers_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="-180">
           <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/pages/account/loyalty_account_badges_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/tests/account/loyalty_badges_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/pages/loyalty_landing_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/tests/loyalty_login_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
