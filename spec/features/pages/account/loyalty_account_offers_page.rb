@@ -47,18 +47,18 @@ module OffersPage
     # binding.pry
     find(:xpath, "//input[@class='datepicker start_date start_date_date hasDatepicker']", wait: 2).click
     sleep 2
-    date_start = Date.today.day+ 1
+    date_start = Date.today.day - 1
     find(:xpath, "//div[@id='ui-datepicker-div']/table/tbody/tr/td/a[.//text()='" + date_start.to_s + "']", wait: 2).click
     sleep 4
     # time = Time.new.hour+ 2
-    page.execute_script "window.scrollTo(0,700)"
+    page.execute_script 'window.scrollTo(0,700)'
     sleep 4
     find(:xpath, "//input[@id='point_promotion_datetime_start_date_time']", wait: 2).click
 
 
     availability = verify_content 'Time of day'
 
-    if (availability==true)
+    if availability
       print availability
       sleep 2
       find(:css, 'div.wickedpicker > ul > li:nth-child(1) > span.wickedpicker__controls__control-up', wait: 2).click
@@ -74,11 +74,11 @@ module OffersPage
 
     # puts time
     find(:xpath, "//input[@class='datepicker end_date end_date_date hasDatepicker']", wait: 2).click
-    date_end = Date.today.day+3
+    date_end = Date.today.day
     find(:xpath, "//div[@id='ui-datepicker-div']/table/tbody/tr/td/a[.//text()='" + date_end.to_s + "']", wait: 2).click
 
     # ==========
-    find(:id, "point_promotion_point_strategies_attributes_0_rule_type", wait: 2).click
+    find(:id, 'point_promotion_point_strategies_attributes_0_rule_type', wait: 2).click
     find(:xpath, "//select[@id='point_promotion_point_strategies_attributes_0_rule_type']/option[@value='equals']", wait: 2).click
     fill_in 'point_promotion_point_strategies_attributes_0_value', with: 5
     status = find(:id, 'point_promotion_active', wait: 2)
