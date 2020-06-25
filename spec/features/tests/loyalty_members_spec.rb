@@ -12,9 +12,10 @@ feature 'Members Module' do
   end
 
   before(:each) do
-    @account = '000'
-    @username = '000'
-    @password = '000'
+    @account = '0000'
+    @username = '000000@000000.com'
+    @password = '00000000000000000'
+
     visit '/'
     login(@username, @password)
     find_account(@account)
@@ -116,11 +117,19 @@ feature 'Members Module' do
   # end
 
   it 'should pause a member' do
-    # @member_id = 'automember1528942706'
     find_member @member_id
     pause_member
     within '.flash_notice' do
-      verify_content 'Successfully paused member.'
+      verify_content 'Successfully paused member'
+    end
+    sleep 1
+  end
+
+  it 'should activate a member' do
+    find_member @member_id
+    activate_member
+    within '.flash_notice' do
+      verify_content 'Successfully activated member.'
     end
     sleep 1
   end

@@ -53,6 +53,10 @@ module MembersPage
     find(:xpath, "//aside/a[contains(@href, '/pause') and contains(text(), 'Pause this member')]", wait: 2).click
   end
 
+  def activate_member
+    find(:xpath, "//aside/a[contains(text(),'Activate this member')]", wait: 2).click
+  end
+
   def manage_events
     click_link_or_button 'Manage events'
   end
